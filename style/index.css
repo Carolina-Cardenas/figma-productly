@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 60px;
+    align-content: center;
    
   }
   .main-meny {
@@ -78,39 +79,18 @@
     letter-spacing: 0.02em;
     color: #9a9a9a;
   }
-  .main-btn {
-    width: 152px;
-    height: 64px;
-    margin-top: 50px;
-    margin-left: 200px;
-    border: none;
-    background-color: #a3dc00;
-    border-radius: 6px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
+  .btn {
+    font-family: Poppins, sans-serif;
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+    justify-content: center;
+    color: #173a56;
+    padding: 15px 25px;
+   
   }
-  .meny-btn {
-    width: 120px;
-    height: 59px;
-    border: none;
-    background-color: #a3dc00;
-    border-radius: 6px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    text-align: center;
-    cursor: pointer;
+  .btn--sign-up {
+    background-color: #f90;
+    color: #fff;
   }
   
   section {
