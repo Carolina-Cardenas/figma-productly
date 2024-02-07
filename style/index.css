@@ -1,9 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: Poppins, sans-serif;
+}
 .container {
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 0 50px;
+  flex-wrap: wrap;
+}
+.container-main {
+  display: flex;
+  margin-top: 169px;
+  margin-left: 144px;
+  height: 496px;
+  width: 100%;
+  max-width: 1126px;
+}
+.container-first {
+  margin-top: 734px;
+  width: 2211;
+  height: 543px;
+  max-width: 1057px;
+  padding: 0 20px;
 }
 .main-header {
   border: 1px solid #000;
@@ -15,116 +39,317 @@
   font-size: 16px;
   font-weight: 600;
   white-space: nowrap;
-  
 }
-.navigator{
-    background-color: #fff;
-   
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 60px;
-    align-content: center;
-   
-  }
-  .main-meny {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 20px
-  }
-
+.navigator {
+  background-color: #fff;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  align-content: center;
+}
+.main-meny {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
 
 .logo {
-    font-family: Gotham;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 48px;
-    letter-spacing: -0.02em;
-    color: #0a1b32;
-    margin-top: 37px;
-    margin-left: 80px;
-  }
-  
-  .logo-dot {
-    color: #a3dc00;
-  }
-  .main-title {
-    max-width: 495px;
-    width: 100%;
-    margin-top: 203px;
-    margin-left: 200px;
-    font-family: Gotham;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 76px;
-    letter-spacing: 0.02em;
-    color: #1b0a42;
-    text-shadow: 10px;
-    box-shadow: 10px;
-  }
-  
-  .main-info {
-    max-width: 583px;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 200px;
-    line-height: 32px;
-    letter-spacing: 0.02em;
-    color: #9a9a9a;
-  }
-  .btn {
-    font-family: Poppins, sans-serif;
-    border-radius: 4px;
-    border: 1px solid #bcd0e5;
-    justify-content: center;
-    color: #173a56;
-    padding: 15px 25px;
-   
-  }
-  .btn--sign-up {
-    background-color: #f90;
-    color: #fff;
-  }
-  
-  section {
-    display: inline-block;
-    flex-direction: column;
-    align-self: center;
-  }
-  .meny,
-  .meny-right {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #1b0a42;
-    text-align: center;
-    margin-right: 20px;
-  }
-  .meny {
-    float: left;
-  }
-  .meny-right {
-    display: inline-block;
-  }
-  .section-right {
-    float: right;
-    margin-right: 80px;
-    align-items: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin-top: 45px;
-    flex-direction: column;
-  }
-  .main-nav {
-    margin-left: 20px;
-  }
-  
+  aspect-ratio: 5.88;
+  object-fit: auto;
+  object-position: center;
+  width: 185px;
+  height: 31px;
+  max-width: 100%;
+  margin: auto 0;
+}
+
+.main-title {
+  width: 518px;
+  height: 109px;
+  margin-top: 201px;
+  margin-left: 148px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 54px;
+  letter-spacing: 0px;
+  color: #000000;
+  text-shadow: 10px;
+  box-shadow: 10px;
+  text-align: left;
+  line-height: 54px;
+}
+.title-second {
+  color: #2f281e;
+  text-align: center;
+  margin-top: 121px;
+  width: 539px;
+  font: 700 36px Poppins, sans-serif;
+}
+
+.main-info {
+  width: 458px;
+  height: 96px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 148px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+}
+.btn {
+  font-family: Poppins, sans-serif;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  justify-content: center;
+  color: #173a56;
+  padding: 15px 25px;
+  background-color: transparent;
+
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #aeb289;
+}
+.btn:hover {
+  box-shadow: 0 0 10px 0 #aeb289 inset, 0 0 20px 2px #aeb289;
+  border: 3px solid #aeb289;
+}
+.btn--sign-up {
+  background-color: #f90;
+  color: #fff;
+}
+.btn-img {
+  font-family: Poppins, sans-serif;
+  border-radius: 4px;
+  background-color: #f90;
+  align-self: stretch;
+  flex-grow: 1;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 21px 41px;
+}
+.meny,
+.meny-right {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b0a42;
+  text-align: center;
+  margin-right: 20px;
+}
+.meny {
+  float: left;
+}
+.meny-right {
+  display: inline-block;
+}
+.section-right {
+  float: right;
+  margin-right: 80px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 45px;
+  flex-direction: column;
+}
+.main-nav {
+  margin-left: 20px;
+}
+
+.top-info {
+  gap: 20px;
+  display: flex;
+}
+
+.main-body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 50px;
+}
+
+.div {
+  display: flex;
+  max-width: 521px;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+}
+
+.column-left {
+  margin-left: 0px;
+}
+.column-right {
+  margin-left: 20px;
+}
+.center-cards {
+  margin-top: 58px;
+  width: 100%;
+  max-width: 1057px;
+  padding: 0 20px;
+}
+.container-cards {
+  gap: 20px;
+  display: flex;
+  margin-top: 58px;
+  width: 100%;
+  max-width: 1057px;
+  padding: 0 20px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.column-info {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+.img-4 {
+  aspect-ratio: 1.02;
+  object-fit: auto;
+  object-position: center;
+  width: 51px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  color: #2f281e;
+  margin-top: 37px;
+  font: 600 22px Poppins, sans-serif;
+}
+.card-info {
+  color: #544837;
+  margin-top: 29px;
+  font: 500 16px/26px Poppins, sans-serif;
+}
+.squares {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+}
+.squares--color-purple {
+  background-color: #7752be;
+}
+.squares--color-yellow {
+  background-color: #fab005;
+}
+.squares--color-red {
+  background-color: #f03e3d;
+}
+.squares--color-blue {
+  background-color: #4dadf7;
+}
+.div-ticks {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.selling-information {
+  margin-top: 210px;
+  width: 100%;
+  max-width: 1110px;
+  gap: 20px;
+  display: flex;
+}
+.ticks {
+  width: 35px;
+  max-width: 35px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #ff9900;
+}
+
+.footer {
+  margin-top: 102px;
+  width: 100%;
+  max-width: 1096px;
+  gap: 20px;
+  display: flex;
+}
+
+.footer--column-left {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 21%;
+  margin-left: 0px;
+}
+.footer--column-right {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 79%;
+  margin-left: 20px;
+}
+.footer--column-links{
+ 
+  line-height: normal;
+  width: 27%;
+}
+.footer--column-sign-up{
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 52%;
+  margin-left: 20px;
+}
+.right-column {
+  margin-top: 4px;
+  flex-grow: 1;
+  padding: 0 20px;
+  gap: 20px;
+  display: flex;
+}
+.link-title{
+  color: #2f281e;
+    font: 20px/150% Goblin One, sans-serif;
+}
+.links-items {
+  color: #544837;
+  margin-top: 51px;
+  font: 16px/35px Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.last-column-text {
+  color: #2f281e;
+  font: 20px/30px Goblin One, sans-serif;}
+.mobile {
+  font-family: Nobile, sans-serif;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: start;
+  color: #bcd0e5;
+  white-space: nowrap;
+  line-height: 175%;
+  padding: 16px 60px 16px 15px;
+}
+.now{
+  position: relative;
+  top: 20px;
+}
