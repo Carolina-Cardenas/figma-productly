@@ -2,10 +2,27 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5
+ {
+  font-family: Poppins, sans-serif;
+  color:#000000;
+}
+h4,h5{
+ color:#2F281E ; 
+ margin-top: 40px;
+ font-size: 20px;
+ font-family: Poppins, sans-serif;
+}
 p {
   font-family: Poppins, sans-serif;
+  color: #544837;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  text-align: left;
+
 }
+
 .container {
   background-color: #fff;
   display: flex;
@@ -13,6 +30,7 @@ p {
   align-items: center;
   padding: 20px 0 50px;
   flex-wrap: wrap;
+
 }
 .container-main {
   display: flex;
@@ -28,6 +46,7 @@ p {
   height: 543px;
   max-width: 1057px;
   padding: 0 20px;
+
 }
 .main-header {
   border: 1px solid #000;
@@ -47,23 +66,30 @@ p {
   align-items: center;
   padding: 16px 60px;
   align-content: center;
+  color: #2F281E;
+  line-height: 28px;
+  font-family: Poppins, sans-serif;
+  letter-spacing: 0px;
+  font-size: 14px;
 }
 .main-meny {
   display: flex;
   width: 100%;
   justify-content: space-between;
   gap: 20px;
+
 }
 
 .logo {
-  aspect-ratio: 5.88;
-  object-fit: auto;
+  aspect-ratio: 5.88; 
+  object-fit: auto; 
   object-position: center;
   width: 185px;
-  height: 31px;
-  max-width: 100%;
-  margin: auto 0;
-}
+  height: 31px; 
+  max-width: 100%; 
+  margin: auto 0; 
+  color: #173A56;
+} 
 
 .main-title {
   width: 518px;
@@ -110,10 +136,10 @@ p {
   color: #173a56;
   padding: 15px 25px;
   background-color: transparent;
-
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   color: #aeb289;
+  
 }
 .btn:hover {
   box-shadow: 0 0 10px 0 #aeb289 inset, 0 0 20px 2px #aeb289;
@@ -122,7 +148,14 @@ p {
 .btn--sign-up {
   background-color: #f90;
   color: #fff;
+  margin-top: 37px;
+
 }
+.btn--top{
+  position: relative;
+  top: -50px;
+}
+
 .btn-img {
   font-family: Poppins, sans-serif;
   border-radius: 4px;
@@ -134,6 +167,25 @@ p {
   font-weight: 700;
   white-space: nowrap;
   padding: 21px 41px;
+  margin-left: 144px;
+}
+.link-watch {
+  color: #f90;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  text-decoration-line: underline;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: auto 0;
+}
+.btn-link{
+  display: flex;
+  margin-top: 278px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 .meny,
 .meny-right {
@@ -189,13 +241,17 @@ ul {
   flex-direction: column;
   line-height: normal;
   width: 50%;
+
 }
 
 .column-left {
   margin-left: 0px;
+  
 }
 .column-right {
   margin-left: 20px;
+  position: relative;
+  top: 150px;
 }
 .center-cards {
   margin-top: 58px;
@@ -214,13 +270,14 @@ ul {
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
+
+
 }
 .column-info {
   display: flex;
   flex-direction: column;
   line-height: normal;
   width: 25%;
-  margin-left: 20px;
 }
 .img-4 {
   aspect-ratio: 1.02;
@@ -260,10 +317,14 @@ img {
   background-color: #4dadf7;
 }
 .div-ticks {
-  display: flex;
   margin-top: 40px;
-  justify-content: space-between;
   gap: 20px;
+  display: flex;
+  font-size: 16px;
+  color: #544837;
+  text-align: left;
+  letter-spacing: 0px;
+
 }
 
 .selling-information {
@@ -272,6 +333,7 @@ img {
   max-width: 1110px;
   gap: 20px;
   display: flex;
+  margin-left: 90px;
 }
 .ticks {
   width: 35px;
@@ -304,7 +366,6 @@ img {
   margin-left: 20px;
 }
 .footer--column-links{
- 
   line-height: normal;
   width: 27%;
 }
@@ -324,7 +385,7 @@ img {
 }
 .link-title{
   color: #2f281e;
-    font: 20px/150% Goblin One, sans-serif;
+  font: 20px/150% Goblin One, sans-serif;
 }
 .links-items {
   color: #544837;
@@ -352,4 +413,8 @@ img {
 .now{
   position: relative;
   top: 20px;
+}
+.orange-check{
+  width: 35px;
+  display: flex;
 }
