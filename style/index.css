@@ -2,16 +2,16 @@ h1,
 h2,
 h3,
 h4,
-h5
- {
+h5 {
   font-family: Poppins, sans-serif;
-  color:#000000;
+  color: #000000;
 }
-h4,h5{
- color:#2F281E ; 
- margin-top: 40px;
- font-size: 20px;
- font-family: Poppins, sans-serif;
+h4,
+h5 {
+  color: #2f281e;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
 }
 p {
   font-family: Poppins, sans-serif;
@@ -20,7 +20,6 @@ p {
   letter-spacing: 0px;
   line-height: 25px;
   text-align: left;
-
 }
 
 .container {
@@ -30,7 +29,6 @@ p {
   align-items: center;
   padding: 20px 0 50px;
   flex-wrap: wrap;
-
 }
 .container-main {
   display: flex;
@@ -46,7 +44,6 @@ p {
   height: 543px;
   max-width: 1057px;
   padding: 0 20px;
-
 }
 .main-header {
   border: 1px solid #000;
@@ -66,7 +63,7 @@ p {
   align-items: center;
   padding: 16px 60px;
   align-content: center;
-  color: #2F281E;
+  color: #2f281e;
   line-height: 28px;
   font-family: Poppins, sans-serif;
   letter-spacing: 0px;
@@ -77,24 +74,26 @@ p {
   width: 100%;
   justify-content: space-between;
   gap: 20px;
-
 }
+.footer {
+  margin-top: 102px;
+  width: 100%;
 
+  gap: 20px;
+  display: flex;
+}
 .logo {
-  aspect-ratio: 5.88; 
-  object-fit: auto; 
+  aspect-ratio: 5.88;
+  object-fit: auto;
   object-position: center;
-  width: 185px;
-  height: 31px; 
-  max-width: 100%; 
-  margin: auto 0; 
-  color: #173A56;
-} 
-
+  margin: auto 0;
+  position: relative;
+  margin-left: 680px;
+}
 .main-title {
   width: 518px;
   height: 109px;
-  margin-top: 201px;
+  margin-top: 130px;
   margin-left: 148px;
   font-family: poppins;
   font-style: normal;
@@ -115,7 +114,6 @@ p {
   width: 539px;
   font: 700 36px Poppins, sans-serif;
 }
-
 .main-info {
   width: 458px;
   height: 96px;
@@ -139,7 +137,6 @@ p {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   color: #aeb289;
-  
 }
 .btn:hover {
   box-shadow: 0 0 10px 0 #aeb289 inset, 0 0 20px 2px #aeb289;
@@ -149,9 +146,8 @@ p {
   background-color: #f90;
   color: #fff;
   margin-top: 37px;
-
 }
-.btn--top{
+.btn--top {
   position: relative;
   top: -50px;
 }
@@ -179,7 +175,7 @@ p {
   flex-basis: auto;
   margin: auto 0;
 }
-.btn-link{
+.btn-link {
   display: flex;
   margin-top: 278px;
   padding-right: 20px;
@@ -216,12 +212,12 @@ ul {
 .main-nav {
   margin-left: 20px;
 }
-
 .top-info {
-  gap: 20px;
   display: flex;
 }
-
+.top-info--top {
+  top: 50px;
+}
 .main-body {
   background-color: #fff;
   display: flex;
@@ -229,7 +225,6 @@ ul {
   align-items: center;
   padding: 20px 0 50px;
 }
-
 .div {
   display: flex;
   max-width: 521px;
@@ -241,17 +236,15 @@ ul {
   flex-direction: column;
   line-height: normal;
   width: 50%;
-
 }
 
 .column-left {
   margin-left: 0px;
-  
 }
 .column-right {
   margin-left: 20px;
   position: relative;
-  top: 150px;
+  display: flex;
 }
 .center-cards {
   margin-top: 58px;
@@ -270,8 +263,6 @@ ul {
 img {
   overflow-clip-margin: content-box;
   overflow: clip;
-
-
 }
 .column-info {
   display: flex;
@@ -324,9 +315,7 @@ img {
   color: #544837;
   text-align: left;
   letter-spacing: 0px;
-
 }
-
 .selling-information {
   margin-top: 210px;
   width: 100%;
@@ -342,7 +331,6 @@ img {
   border-radius: 20px;
   background-color: #ff9900;
 }
-
 .footer {
   margin-top: 102px;
   width: 100%;
@@ -350,7 +338,6 @@ img {
   gap: 20px;
   display: flex;
 }
-
 .footer--column-left {
   display: flex;
   flex-direction: column;
@@ -365,11 +352,11 @@ img {
   width: 79%;
   margin-left: 20px;
 }
-.footer--column-links{
+.footer--column-links {
   line-height: normal;
   width: 27%;
 }
-.footer--column-sign-up{
+.footer--column-sign-up {
   display: flex;
   flex-direction: column;
   line-height: normal;
@@ -383,7 +370,7 @@ img {
   gap: 20px;
   display: flex;
 }
-.link-title{
+.link-title {
   color: #2f281e;
   font: 20px/150% Goblin One, sans-serif;
 }
@@ -396,7 +383,8 @@ img {
 }
 .last-column-text {
   color: #2f281e;
-  font: 20px/30px Goblin One, sans-serif;}
+  font: 20px/30px Goblin One, sans-serif;
+}
 .mobile {
   font-family: Nobile, sans-serif;
   border-radius: 4px;
@@ -410,11 +398,11 @@ img {
   line-height: 175%;
   padding: 16px 60px 16px 15px;
 }
-.now{
+.now {
   position: relative;
   top: 20px;
 }
-.orange-check{
+.orange-check {
   width: 35px;
   display: flex;
 }
